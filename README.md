@@ -80,7 +80,3 @@ To select the scenario on line 3 of the `belly.feature` file use:
 
 Note: Add `-Dcucumber.plugin=pretty` to get test reports. Maven does not report
 tests without a class.
-
-### With Gradle
-
-TODO: (Feel free to send a pull request. ;))
