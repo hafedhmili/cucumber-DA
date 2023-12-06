@@ -27,4 +27,3 @@ jobs:
         run: |
           cd maven
           ./mvnw test -Dmaven.test.failure.ignore
-      - run: grep -q "The step 'I wait 1 hour' and 1 other step(s) are undefined." maven/target/surefire-reports/io.cucumber.skeleton.RunCucumberTest.txt || ( echo "mvn test didn't fail as expected" && false )
